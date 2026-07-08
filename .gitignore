@@ -1,0 +1,5 @@
+# Whitelist: ignore everything, then allow only the files worth publishing
+*
+!.gitignore
+!index.html
+!README.md
