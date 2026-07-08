@@ -3,7 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Delta Raid</title>
+<title>Delta Raid — free retro river shooter in your browser</title>
+<meta name="description" content="Delta Raid is a free retro arcade game inspired by the 1982 classic River Raid. Fly up the river, dodge the banks, manage fuel, shoot bridges to level up. Single HTML file, works on desktop and mobile, no install.">
+<link rel="canonical" href="https://delta-raid.hadeli.me/">
+<!-- social link previews (LinkedIn, Facebook, Slack, ...) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Delta Raid">
+<meta property="og:title" content="Delta Raid — free retro river shooter">
+<meta property="og:description" content="A retro arcade river shooter in a single HTML file. Zero dependencies. Play free in your browser — desktop or mobile.">
+<meta property="og:url" content="https://delta-raid.hadeli.me/">
+<meta property="og:image" content="https://delta-raid.hadeli.me/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Delta Raid — free retro river shooter">
+<meta name="twitter:description" content="A retro arcade river shooter in a single HTML file. Zero dependencies. Play free in your browser.">
+<meta name="twitter:image" content="https://delta-raid.hadeli.me/og-image.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"VideoGame","name":"Delta Raid",
+ "url":"https://delta-raid.hadeli.me/",
+ "description":"Free retro arcade river shooter inspired by the 1982 classic River Raid. Runs in any browser, no install.",
+ "image":"https://delta-raid.hadeli.me/og-image.png",
+ "genre":["Arcade","Shooter","Retro"],"playMode":"SinglePlayer",
+ "gamePlatform":["Web Browser"],"applicationCategory":"Game",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
 <style>
   html,body{margin:0;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
   /* synthwave sky, slowly drifting */
@@ -50,6 +74,7 @@
 </style>
 </head>
 <body>
+<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">Delta Raid — free retro river shooter browser game inspired by the 1982 classic River Raid</h1>
 <canvas id="c" width="480" height="640" tabindex="0" aria-label="Delta Raid game. Arrow keys steer, space shoots, Enter starts. On touch screens, drag to fly."></canvas>
 <script>
 'use strict';
