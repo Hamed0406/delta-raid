@@ -91,6 +91,3 @@ PLAN.md      design notes, architecture, build history, backlog
 README.md    this file
 ```
 
-For how the game works internally (coordinate system, procedural river,
-difficulty dials) and the engineering principles behind it, see
-[PLAN.md](PLAN.md).
